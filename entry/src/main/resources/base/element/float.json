@@ -3,6 +3,26 @@
     {
       "name": "page_text_font_size",
       "value": "50fp"
+    },
+    {
+      "name": "fp_14",
+      "value": "14fp"
+    },
+    {
+      "name": "fp_16",
+      "value": "16fp"
+    },
+    {
+      "name": "fp_18",
+      "value": "18fp"
+    },
+    {
+      "name": "fp_20",
+      "value": "20fp"
+    },
+    {
+      "name": "vp_100",
+      "value": "100vp"
     }
   ]
 }

@@ -10,7 +10,15 @@
     },
     {
       "name": "EntryAbility_label",
-      "value": "label"
+      "value": "鸿蒙应用案例"
+    },
+    {
+      "name": "tip_main_page",
+      "value": "我是主页点我跳转"
+    },
+    {
+      "name": "tip_other_page",
+      "value": "我是其它页面"
     }
   ]
 }
