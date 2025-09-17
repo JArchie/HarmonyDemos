@@ -21,6 +21,22 @@
       "value": "20fp"
     },
     {
+      "name": "vp_8",
+      "value": "8vp"
+    },
+    {
+      "name": "vp_12",
+      "value": "12vp"
+    },
+    {
+      "name": "vp_16",
+      "value": "16vp"
+    },
+    {
+      "name": "vp_35",
+      "value": "35vp"
+    },
+    {
       "name": "vp_100",
       "value": "100vp"
     }

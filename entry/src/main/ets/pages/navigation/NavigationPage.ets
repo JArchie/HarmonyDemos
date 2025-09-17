@@ -13,7 +13,7 @@ struct NavigationPage {
   promptAction = this.getUIContext().getPromptAction()
 
   aboutToAppear(): void {
-    this.pageStack.pushPath({ name: PageConstant.PAGE_MAIN }, false)
+    this.pageStack.pushPath({ name: PageConstant.PAGE_SPLASH }, false)
   }
 
   build() {

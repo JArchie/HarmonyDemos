@@ -19,6 +19,26 @@
     {
       "name": "tip_other_page",
       "value": "我是其它页面"
+    },
+    {
+      "name": "splash_content",
+      "value": "我是启动页"
+    },
+    {
+      "name": "title_privacy_dialog",
+      "value": "隐私协议弹窗"
+    },
+    {
+      "name": "reject",
+      "value": "拒绝"
+    },
+    {
+      "name": "agree",
+      "value": "同意"
+    },
+    {
+      "name": "privacy_content",
+      "value": "在您使用XXX软件提供的服务前，请仔细阅读XXX"
     }
   ]
 }

@@ -7,6 +7,22 @@
     {
       "name": "color_primiry",
       "value": "#57BE6A"
+    },
+    {
+      "name": "color_transparent",
+      "value": "#77000000"
+    },
+    {
+      "name": "color_333",
+      "value": "#333333"
+    },
+    {
+      "name": "color_666",
+      "value": "#333333"
+    },
+    {
+      "name": "color_999",
+      "value": "#333333"
     }
   ]
 }
