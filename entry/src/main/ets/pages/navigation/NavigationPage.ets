@@ -13,6 +13,8 @@ struct NavigationPage {
   promptAction = this.getUIContext().getPromptAction()
 
   aboutToAppear(): void {
+    // Demo：跳转到第一个页面
+    // this.pageStack.pushPath({ name: PageConstant.PAGE_FIRST }, false)
     this.pageStack.pushPath({ name: PageConstant.PAGE_SPLASH }, false)
   }
 

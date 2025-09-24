@@ -5,6 +5,10 @@
       "value": "50fp"
     },
     {
+      "name": "fp_12",
+      "value": "12fp"
+    },
+    {
       "name": "fp_14",
       "value": "14fp"
     },
@@ -21,6 +25,10 @@
       "value": "20fp"
     },
     {
+      "name": "vp_5",
+      "value": "5vp"
+    },
+    {
       "name": "vp_8",
       "value": "8vp"
     },
@@ -33,8 +41,20 @@
       "value": "16vp"
     },
     {
+      "name": "vp_24",
+      "value": "24vp"
+    },
+    {
       "name": "vp_35",
       "value": "35vp"
+    },
+    {
+      "name": "vp_45",
+      "value": "45vp"
+    },
+    {
+      "name": "vp_50",
+      "value": "50vp"
     },
     {
       "name": "vp_100",

@@ -1,8 +1,9 @@
 import { PageConstant } from "../../constants/PageConstant";
-import { MainPage } from "../MainPage";
+import { MainPage } from "../tab/MainPage";
 import { OtherPage } from "../OtherPage";
 import { PrivacyPopupWindowPage } from "../splash/PrivacyPopupWindowPage";
 import { SplashPage } from "../splash/SplashPage";
+import { FirstPage } from "../FirstPage";
 
 @Builder
 export function PagesMapBuilder(name: string) {
@@ -14,5 +15,7 @@ export function PagesMapBuilder(name: string) {
     MainPage()
   } else if (name === PageConstant.PAGE_OTHER) {
     OtherPage()
+  } else if (name === PageConstant.PAGE_FIRST) {
+    FirstPage()
   }
 }

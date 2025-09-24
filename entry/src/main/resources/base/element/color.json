@@ -5,8 +5,8 @@
       "value": "#FFFFFF"
     },
     {
-      "name": "color_primiry",
-      "value": "#57BE6A"
+      "name": "color_primary",
+      "value": "#1677ff"
     },
     {
       "name": "color_transparent",
@@ -23,6 +23,10 @@
     {
       "name": "color_999",
       "value": "#333333"
+    },
+    {
+      "name": "color_unselect",
+      "value": "#454955"
     }
   ]
 }

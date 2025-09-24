@@ -3,10 +3,10 @@ import { PageConstant } from "../constants/PageConstant"
 import { BackData, ParamData } from "../model/DemoData"
 
 @Component
-export struct MainPage {
+export struct FirstPage {
   @Consume(CommonConstant.PAGEINFO_KEY) pageStack: NavPathStack
   @State content: string | Resource = $r('app.string.tip_main_page')
-  paramData: ParamData = { name: '我是MainPage数据' }
+  paramData: ParamData = { name: '我是FirstPage数据' }
 
   build() {
     NavDestination() {

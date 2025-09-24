@@ -53,7 +53,7 @@ export struct PrivacyPopupWindowPage {
               .padding({ top: $r('app.float.vp_12'), bottom: $r('app.float.vp_12') })
               .textAlign(TextAlign.Center)
               .fontSize($r('app.float.fp_18'))
-              .fontColor($r('app.color.color_primiry'))
+              .fontColor($r("app.color.color_primary"))
               .onClick(() => {
                 PreferencesUtil.putSync(CommonConstant.PRIVACY_KEY, true)
                 this.pageStack.pop(CommonConstant.PRIVACY_AGREED, false)
