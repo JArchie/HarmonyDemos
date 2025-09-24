@@ -1,5 +1,6 @@
 import { CommonConstant } from "../../constants/CommonConstant"
 import { PageConstant } from "../../constants/PageConstant"
+import { DisplayUtil } from "../../utils/DisplayUtil"
 import { PreferencesUtil } from "../../utils/PreferencesUtil"
 
 @Component
@@ -33,15 +34,28 @@ export struct SplashPage {
 
   build() {
     NavDestination() {
-      Column() {
+      RelativeContainer() {
+        Image($r('app.media.icon_splash')).width($r('app.float.vp_100')).height($r('app.float.vp_100')).objectFit(ImageFit.Contain)
+          .alignRules({
+            'top': { 'anchor': '__container__', 'align': VerticalAlign.Center },
+            'left': { 'anchor': '__container__', 'align': HorizontalAlign.Start },
+            'right': { 'anchor': '__container__', 'align': HorizontalAlign.End }
+          })
         Text($r('app.string.splash_content'))
-          .fontSize($r('app.float.fp_20'))
-          .fontColor(Color.Blue)
-          .fontWeight(FontWeight.Bold)
+          .width(CommonConstant.FULL_PERCENT)
+          .textAlign(TextAlign.Center)
+          .fontSize($r('app.float.fp_14'))
+          .fontColor($r('app.color.color_primary'))
+          .margin({ bottom: $r('app.float.vp_16') })
+          .alignRules({
+            'bottom': { 'anchor': '__container__', 'align': VerticalAlign.Bottom },
+            'left': { 'anchor': '__container__', 'align': HorizontalAlign.Start },
+            'right': { 'anchor': '__container__', 'align': HorizontalAlign.End }
+          })
       }
       .width(CommonConstant.FULL_PERCENT)
       .height(CommonConstant.FULL_PERCENT)
-      .justifyContent(FlexAlign.Center)
     }.hideTitleBar(true)
+    .padding({ bottom: DisplayUtil.getBottomRectHeight(this.getUIContext()) })
   }
 }

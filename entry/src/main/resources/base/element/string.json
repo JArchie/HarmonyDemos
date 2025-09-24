@@ -14,7 +14,7 @@
     },
     {
       "name": "tip_main_page",
-      "value": "我是主页点我跳转"
+      "value": "我是第一个页面点我跳转"
     },
     {
       "name": "tip_other_page",
@@ -22,7 +22,7 @@
     },
     {
       "name": "splash_content",
-      "value": "我是启动页"
+      "value": "HarmonyOS应用示例"
     },
     {
       "name": "title_privacy_dialog",
@@ -39,6 +39,26 @@
     {
       "name": "privacy_content",
       "value": "在您使用XXX软件提供的服务前，请仔细阅读XXX"
+    },
+    {
+      "name": "tab_index",
+      "value": "首页"
+    },
+    {
+      "name": "tab_financial",
+      "value": "理财"
+    },
+    {
+      "name": "tab_video",
+      "value": "视频"
+    },
+    {
+      "name": "tab_msg",
+      "value": "消息"
+    },
+    {
+      "name": "tab_mine",
+      "value": "我的"
     }
   ]
 }
